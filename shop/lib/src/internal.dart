@@ -50,7 +50,7 @@ double getDiscountRate(int cartLength) {
 /// [discountRate] The discount rate as a decimal
 /// Returns the discount amount
 double calculateDiscountAmount(double subtotal, double discountRate) {
-  return subtotal * discountRate.toInt();
+  return subtotal * discountRate;
 }
 
 /// Calculates the final total after discount
